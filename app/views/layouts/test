@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1>Rachel Hawa</h1>
+      <h2>Software Engineer</h2>
+
+
+      <ul class="buttons">
+          <li><%= link_to "About", "#", id: "about", class: "active, button" %></li>
+          <li><%= link_to "Projects", "#", id: "projects", class: "button"%></li>
+          <li><%= link_to "Resume", "#", id: "resume", class: "button"%></li>
+          <li><%= link_to "Contact", "#", id: "contact", class: "button"%></li>
+        </ul>
+    </div>
+  </div>
+    <%= yield %>
+  </body>
+</html>
+
+
+
+<%= render 'application/about' %>
+<%= render 'application/projects' %>
+<%= render 'application/resume' %>
+<%= render 'application/contact' %>
