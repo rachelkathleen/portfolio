@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  // $('#js-content').load('/');
+  $('#js-content').load('/about');
 
   $('#js-navigation a').click(function(e) {
     e.preventDefault();
