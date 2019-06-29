@@ -1,36 +1,42 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Portfolio</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<section id="resume">
+  <div class="jumbotron">
+    <div class="education">
+      <div class="school">
+        <h5>Flatiron School</h5>
+        <p>In progress</p>
+        <p>Top rated full-stack web development program; nine months and 1000 hour
+          curriculum covering Ruby, JavaScript, React/Redux, SQL, Git, and HTML/CSS</p>
+      </div>
+      <div class="school">
+        <h5>SUNY Purchase </h5>
+        <p> Coursework completed towards a Bachelor of Arts degree in Economics</p>
+      </div>
+      <div class="school">
+        <h5>Occidental College</h5>
+        <p> Coursework completed towards a Bachelor of Arts degree in Economics</p>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+      </div>
 
-  <body>
-  <div class="hero-image">
-    <div class="hero-text">
-      <h1>Rachel Hawa</h1>
-      <h2>Software Engineer</h2>
-
-
-      <ul class="buttons">
-          <li><%= link_to "About", "#", id: "about", class: "active, button" %></li>
-          <li><%= link_to "Projects", "#", id: "projects", class: "button"%></li>
-          <li><%= link_to "Resume", "#", id: "resume", class: "button"%></li>
-          <li><%= link_to "Contact", "#", id: "contact", class: "button"%></li>
+    </div>
+    <div class="work">
+      <div class="job">
+        <h5>Greystar Management</h5><h6>Leasing Professional</h6>
+        <p>October 2018 - Present</p>
+        <ul>
+          <li>Help build rent growth alongside management team to make asset profitable and ready for sale</li>
+          <li>Among top leasing agents in DFW region, awarded first tier President's Club in first quarter</li>
         </ul>
+      </div>
+      <div class="job">
+        <h5>Sidecar Interactive</h5><h6>Account Executive</h6>
+        <p>September, 2017 - September 2018</p>
+        <ul>
+          <li>Help build rent growth alongside management team to make asset profitable and ready for sale</li>
+          <li>Among top leasing agents in DFW region, awarded first tier President's Club in first quarter</li>
+        </ul>
+      </div>
+
     </div>
   </div>
-    <%= yield %>
-  </body>
-</html>
 
-
-
-<%= render 'application/about' %>
-<%= render 'application/projects' %>
-<%= render 'application/resume' %>
-<%= render 'application/contact' %>
+</section>
