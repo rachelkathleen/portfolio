@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::Base
   def home
+    redirect_to about_path
   end
 
   def about

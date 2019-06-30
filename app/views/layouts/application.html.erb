@@ -1,9 +1,19 @@
+<!DOCTYPE html>
+<html>
 <head>
   <title>Rachel Hawa</title>
-  <%= csrf_meta_tags %>
-  <%= csp_meta_tag %>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
 
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-  <script src="https://kit.fontawesome.com/35b8e7b015.js"></script>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <script src="https://kit.fontawesome.com/35b8e7b015.js"></script>
 </head>
+  <body>
+    <%= render 'layouts/hero' %>
     <%= yield %>
+    <%= render 'layouts/footer' %>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  </body>
+</html>
