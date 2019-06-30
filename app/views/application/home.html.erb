@@ -1,4 +1,27 @@
-<div id="js-content">
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rachel Hawa</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
 
-</div>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <script src="https://kit.fontawesome.com/35b8e7b015.js"></script>
+</head>
+  <body>
+    <%= render 'hero' %>
+
+    <div id="js-content">
+      <!-- content will be loaded here -->
+    </div>
+
+
+
+    <%= render 'footer' %>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  </body>
+</html>
+
 <%= javascript_include_tag 'home', 'data-turbolinks-track': 'reload' %>
