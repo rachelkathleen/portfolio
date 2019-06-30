@@ -16,6 +16,7 @@
  body, html {
    height: 100%;
    margin: 0;
+   background-color: #e9ecef;
  }
 
  .hero-image {
@@ -230,7 +231,7 @@ input[type="reset"]:focus,
 input[type="button"]:focus {
   color: #333;
   border-color: #888;
-  outline: 0; }
+  outline: 0; }*/
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
@@ -251,7 +252,7 @@ input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
   background-color: #1EAEDB;
-  border-color: #1EAEDB; } */
+  border-color: #1EAEDB; }
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -291,7 +292,7 @@ pre > code {
 
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* button,
+button,
 .button {
   margin-bottom: 1rem; }
 input,
@@ -308,7 +309,7 @@ p,
 ul,
 ol,
 form {
-  margin-bottom: 2.5rem; } */
+  margin-bottom: 2.5rem; }
 
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -316,6 +317,55 @@ form {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
   border-radius: 0.3rem;
+  border: 3px solid #220F24;
+  text-align: center;
+  background-color: white
+}
+.jumbotron a {
+ margin-left: 20px;
+ margin-right: 20px
+}
+
+.jumbotron ul, p {
+ text-align: left;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  /* padding-bottom: 5px; */
+  justify-content: space-around;
+  display: inline-block;
+}
+
+footer a {
+  padding: 15px;
+  color: white
+}
+footer a:hover {
+  color: white
+}
+
+#js-content {
+
+  padding-bottom: 35px;
+}
+
+.main-content {
+  display: block;
+  border-radius: 25px;
+  /* border-radius: 3px solid #220F24; */
+  padding: 20px;
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
 }
