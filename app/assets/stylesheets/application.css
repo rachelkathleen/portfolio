@@ -41,6 +41,7 @@ li {
   display: inline-block;
 }
 
+
  /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -208,9 +209,14 @@ form {
  margin-right: 20px
 }
 
-.jumbotron ul, p {
+.jumbotron ul {
  text-align: left;
 }
+
+.lead {
+ text-align: center;
+}
+
 .footer {
   position: fixed;
   left: 0;
