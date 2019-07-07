@@ -20,7 +20,7 @@
  }
 
  .hero-image {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.png");
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("other.jpg");
    height: 50%;
    background-position: center;
    background-repeat: no-repeat;
@@ -138,8 +138,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  background-color: #314068;
+  border-color: #314068; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -222,7 +222,7 @@ form {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: black;
+  background-color: #201D32;
   color: white;
   text-align: center;
   /* padding-bottom: 5px; */
