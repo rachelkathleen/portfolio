@@ -207,8 +207,8 @@ form {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  border-radius: 0.3rem;
-  border: 3px solid #220F24;
+  /* border-radius: 0.3rem;
+  border: 3px solid #220F24; */
   text-align: center;
   background-color: white
 }
