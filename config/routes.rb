@@ -4,4 +4,7 @@ Rails.application.routes.draw do
   get '/projects' => 'application#projects'
   get '/contact' => 'application#contact'
   get '/resume' => 'application#resume'
+  get '/winelog' => 'application#winelog'
+  get '/parkfinder' => 'application#parkfinder'
+  get '/divereport' => 'application#divereport'
 end

@@ -3,15 +3,4 @@ class ApplicationController < ActionController::Base
 
   end
 
-  # def about
-  # end
-  #
-  # def contact
-  # end
-  #
-  # def resume
-  # end
-  #
-  # def projects
-  # end
 end
