@@ -1,48 +1,53 @@
 
 <section id="projects" style="display: block">
   <div class="main-content">
-  <div class="jumbotron">
-  <h1 class="display-4">WINELOG</h1>
-  <p class="lead">Digital wine tasting card built with Ruby on Rails, frontend designed with Bootstrap, HTML/CSS</p>
-  <hr class="my-4">
-  <ul>
-    <li>Utilizes RESTful routes and MVC framework</li><br>
-    <li>Features custom scope methods using Active Record Query Interface to provide insights on user preferences</li><br>
-    <li>Seeded database from external source using Nokogiri</li><br>
-    <li>OAuth login with Facebook/Google</li><br>
-    <li>Enabled users to upload photo with Active Storage and Google Cloud storage</li><br>
-    <li>Mobile responsive layout</li>
-  </ul>
-  <%= link_to "Live Demo", 'https://wine-log.herokuapp.com/',  target: "_blank", class: "button button-primary"%>
-  <%= link_to "Video Demo", 'https://drive.google.com/file/d/1x1R4_1moUpMBsxAHjTk8mhiKfHr5wt6F/view?usp=sharing',  target: "_blank", class: "button button-primary"%>
-  <%= link_to "GitHub", 'https://github.com/rachelkathleen/wine-log',  target: "_blank", class: "button button-primary"%>
-  </div>
-
-  <div class="jumbotron">
-  <h1 class="display-4">PARKFINDER</h1>
-  <p class="lead">Sinatra CRUD application for tracking National Parks users have been to or want to visit, and sharing notes </p>
-  <hr class="my-4">
+    <div class="jumbotron">
+    <h1 class="display-4">WINELOG</h1>
+    <p class="lead">Digital wine tasting card built with Ruby on Rails, frontend designed with Bootstrap, HTML/CSS</p>
+    <hr class="my-4">
     <ul>
       <li>Utilizes RESTful routes and MVC framework</li><br>
-      <li>Designed relational database using SQLite (development) and Postgres (production)</li><br>
-      <li>Scraped NPS website using Nokogiri for park data and photos</li><br>
+      <li>Expandable class created with singleton class method</li>
+      <li>Features custom scope methods using Active Record Query Interface to provide insights on user preferences</li><br>
+      <li>Seeded database from external source using Nokogiri</li><br>
+      <li>OAuth login with Facebook/Google</li><br>
+      <li>Enabled users to upload photo with Active Storage and Google Cloud storage</li><br>
+      <li>Create form submits dynamically and displays new wine or error messages through JavaScript/JSON</li><br>
+      <li>JavaScript index pages with asynchronous search feature</li><br>
+      <li>Multi and single select boxes with autocomplete created with jQuery</li><br>
+      <li>Mobile responsive layout</li>
     </ul>
-  <%= link_to "Live Demo", 'https://parkfinder-sinatra-project.herokuapp.com/',  target: "_blank", class: "button button-primary"%>
-  <%= link_to "Video Demo", 'https://drive.google.com/file/d/1AFNIKso2AJRAZatkG4qXT43FCqvKTZP6/view?usp=sharing',  target: "_blank", class: "button button-primary"%>
-  <%= link_to "GitHub", 'https://github.com/rachelkathleen/ParkFinder',  target: "_blank", class: "button button-primary"%>
-  </div>
+    <%= link_to "Live Demo", 'https://wine-log.herokuapp.com/',  target: "_blank", class: "button button-primary"%>
+    <%= link_to "Video Demo, Part 1", 'https://drive.google.com/file/d/1x1R4_1moUpMBsxAHjTk8mhiKfHr5wt6F/view?usp=sharing',  target: "_blank", class: "button button-primary"%>
+    <%= link_to "Video Demo, Part 2", 'https://drive.google.com/file/d/1p8Yb18fEBQQbXQELUrzUESsNnqC3bu4R/view?usp=sharing',  target: "_blank", class: "button button-primary"%>
+    <%= link_to "GitHub", 'https://github.com/rachelkathleen/wine-log',  target: "_blank", class: "button button-primary"%>
+    </div>
 
-  <div class="jumbotron">
-  <h1 class="display-4">DIVEREPORT</h1>
-  <p class="lead">Ruby CLI Application</p>
-  <hr class="my-4">
-    <ul>
-      <li>Something</li><br>
-      <li>something</li><br>
-      <li>something</li><br>
-    </ul>
-  <%= link_to "Video Demo", 'https://drive.google.com/file/d/1fbsJk7zPPzM-kkcxL7sqxeP3wg8AZmiu/view?usp=sharing',  target: "_blank", class: "button button-primary"%>
-  <%= link_to "GitHub", 'https://github.com/rachelkathleen/DiveReport',  target: "_blank", class: "button button-primary"%>
-  </div>
+    <div class="jumbotron">
+    <h1 class="display-4">PARKFINDER</h1>
+    <p class="lead">Sinatra CRUD application for tracking National Parks users have been to or want to visit, and sharing notes </p>
+    <hr class="my-4">
+      <ul>
+        <li>Utilizes RESTful routes and MVC framework</li><br>
+        <li>Designed relational database using SQLite (development) and Postgres (production)</li><br>
+        <li>Scraped NPS website using Nokogiri for park data and photos</li><br>
+      </ul>
+    <%= link_to "Live Demo", 'https://parkfinder-sinatra-project.herokuapp.com/',  target: "_blank", class: "button button-primary"%>
+    <%= link_to "Video Demo", 'https://drive.google.com/file/d/1AFNIKso2AJRAZatkG4qXT43FCqvKTZP6/view?usp=sharing',  target: "_blank", class: "button button-primary"%>
+    <%= link_to "GitHub", 'https://github.com/rachelkathleen/ParkFinder',  target: "_blank", class: "button button-primary"%>
+    </div>
+
+    <div class="jumbotron">
+    <h1 class="display-4">DIVEREPORT</h1>
+    <p class="lead">Ruby CLI Application</p>
+    <hr class="my-4">
+      <ul>
+        <li>Multi level command line application</li><br>
+        <li>Built using OO design principals</li><br>
+        <li>Data scraped from DiveReport.com using Nokogiri</li><br>
+      </ul>
+    <%= link_to "Video Demo", 'https://drive.google.com/file/d/1fbsJk7zPPzM-kkcxL7sqxeP3wg8AZmiu/view?usp=sharing',  target: "_blank", class: "button button-primary"%>
+    <%= link_to "GitHub", 'https://github.com/rachelkathleen/DiveReport',  target: "_blank", class: "button button-primary"%>
+    </div>
   </div>
 </section>
